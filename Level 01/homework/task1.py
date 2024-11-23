@@ -15,12 +15,10 @@ heigh = 157.5 #ეს არის float ტიპის ცვლადი (ა
 #boolean (bool) ტიპის ცვლადი
 
 knows_programming = True    #True ან False
-isugly = False # snackecase(  უბრალოდ წერის სტილი სტანდარტულად)
+isugly = False # snackecase(უბრალოდ წერის სტილი სტანდარტულად)
 
 print(name + " " + surname)
 print(name + str(age))
-
-
 
 
 #print(type(age))
