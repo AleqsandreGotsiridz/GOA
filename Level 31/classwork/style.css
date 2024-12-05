@@ -1,0 +1,25 @@
+body{
+    background-color: aqua;
+}
+#css{
+    color: tomato;
+    text-align: center;
+}
+#html{
+    color:rgb(47, 50, 255) ;
+    text-align: center;
+}
+#python{
+    color: rgb(0, 81, 255);
+    text-align: center;
+}
+#sand{
+    color: rgb(251, 0, 0);
+    text-align: center;
+
+}
+img{
+    border: solid 6px black;
+    border-radius: 35px;
+   
+}

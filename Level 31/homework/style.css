@@ -1,0 +1,24 @@
+body{
+    background-color: green;
+}
+#sand{
+    text-align: center;
+}
+#sand1{
+    text-align: center;
+    border: solid;
+    background-color: rgb(16, 214, 63);
+}
+#sand2{
+    text-align: center;
+}
+#h1{
+    border: solid rgb(3, 57, 3);
+    width: 160px;
+    border-radius: 10px;
+    background-color: rgb(0, 255, 191);
+}
+img{
+    border: solid;
+    width: 500px;
+}
