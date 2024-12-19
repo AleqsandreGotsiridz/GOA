@@ -3,7 +3,7 @@ mother = int(input("enter your mother age:"))
 
 father = int(input("enter your father age:"))
 
-future = int(("how old will they be after 225 years:"))
+future = int(("how old will they be after 25 years:"))
 
 mother_after_traveling = mother + future
 

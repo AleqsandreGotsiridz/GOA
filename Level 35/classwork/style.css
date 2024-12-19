@@ -1,0 +1,18 @@
+body{
+    background-color: #21c48b;
+}
+p{
+    border: solid ;
+    text-decoration: none;
+    
+}
+#manqanebi{
+    color: rgb(15, 30, 144);
+    text-decoration: line-through;
+}
+#manqanebii{
+    color: red;
+}
+p{
+    text-align: justify;
+}
