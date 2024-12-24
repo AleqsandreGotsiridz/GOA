@@ -1,0 +1,18 @@
+body{
+    background-color: #21c48b;
+}
+p{
+    border: solid ;
+    text-decoration: none;
+    
+}
+#manqanebi{
+    color: rgb(255, 0, 0);
+    text-decoration: line-through;
+}
+#manqanebii{
+    color: rgb(251, 255, 0);
+}
+#s10{
+    font-size: 80px;
+}

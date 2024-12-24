@@ -1,0 +1,20 @@
+body{
+    background-color: orangered;
+}
+#jaguar{
+    text-align: center;
+    text-decoration: solid;
+    font-size: 70px;
+}
+#leopard{
+    text-align: center;
+}
+button:hover{
+    background-color: darkred;
+}
+id:link{
+    background-color: rgb(255, 0, 0);
+}
+id:visited{
+    background-color: crimson;
+}

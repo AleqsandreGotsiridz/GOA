@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(44, 78, 180);
+}
+#about{
+    text-align: center;
+}
+#about1{
+    text-align: center;
+}
+a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-size: 50px;
+}
