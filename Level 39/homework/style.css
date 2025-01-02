@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(10, 168, 89);
+}
+#go{
+    text-align: center;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 400px;
+}
+a:hover{
+    color: rgb(255, 0, 0);
+    
+}

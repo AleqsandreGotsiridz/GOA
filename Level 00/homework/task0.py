@@ -42,6 +42,3 @@ left(120)
 end_fill()
 
 exitonclick()
-
-
-exitonclick()
