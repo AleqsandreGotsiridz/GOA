@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+h1:hover{
+    color: rgb(255, 0, 0);
+    font-size: 60px;
+    transition: 1s;
+}
+thead{
+    background-color: rgb(21, 152, 45);
+    color: azure;
+}
+table{
+    border-collapse: collapse;
+}
+tr:nth-child(even){
+    background-color: rgb(214, 210, 210);
+}

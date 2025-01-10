@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(22, 124, 61);
+}
+h1{
+    text-align: center;
+}
+div:hover{
+   border: solid;
+   background-color: hsl(112, 91%, 37%);
+   text-align: center;
+   transition: 1s;
+
+}
+a{
+    text-decoration: none;
+    transition: 1s;
+}
+a:hover{
+    color: rgb(255, 0, 0);
+    
+}
