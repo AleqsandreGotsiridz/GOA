@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(19, 62, 142);
+}
+input[type="text"]{
+    border: 1px solid chocolate;
+}
+label{
+    font-weight: 400;
+    color: rgb(255, 162, 0);
+}
+button{
+    text-align: center;
+}
+button:hover{
+    color:red;
+}
