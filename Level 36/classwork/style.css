@@ -1,21 +1,16 @@
 body{
-    background-color: rgb(22, 124, 61);
+    background-color: rgb(19, 62, 142);
 }
-h1{
+input[type="text"]{
+    border: 1px solid chocolate;
+}
+label{
+    font-weight: 400;
+    color: rgb(255, 162, 0);
+}
+button{
     text-align: center;
 }
-div:hover{
-   border: solid;
-   background-color: hsl(112, 91%, 37%);
-   text-align: center;
-   transition: 1s;
-
-}
-a{
-    text-decoration: none;
-    transition: 1s;
-}
-a:hover{
-    color: rgb(255, 0, 0);
-    
+button:hover{
+    color:red;
 }

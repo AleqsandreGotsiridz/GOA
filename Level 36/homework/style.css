@@ -1,20 +1,43 @@
 body{
-    background-color: rgb(2, 140, 2);
+    background-color: rgb(0, 123, 255);
 }
 h1{
     text-align: center;
-    color: rgb(0, 255, 0);
+    font-size: 70px;
+    color: rgb(12, 12, 161);
 }
 h1:hover{
-    color: #000000;
+    font-family: fantasy;
     font-size: 90px;
     transition: 1s;
+    color: rgb(15, 15, 255);
 }
-img{
-    width: 300px;
+h2{
+    font-size: 30px;
+    color: rgb(34, 0, 255);
 }
-img:hover{
-    width: 500px;
-    border: #000000 solid  2px;
+h2:hover{
+    font-size: 40px;
+    color: red;
+    transition: 3s;
+}
+#poto{
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+}
+#poto:hover{
+    width: 550px;
+    height: 550px;
+    transition: 1s;
+}
+#surati{
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+}
+#surati:hover{
+    width: 550px;
+    height: 560px;
     transition: 1s;
 }
