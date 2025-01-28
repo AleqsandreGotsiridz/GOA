@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(13, 22, 57);
+    text-align: center;
+    background-image: url(colorrrr.webp) ;
+    background-size: cover;
+}
+label{
+    color: rgb(47, 81, 235);
+    font-weight: 900;
+}
+input{
+    border:1px solid #249acc;
+    border-radius: 5px;
+    text-align: center;
+}
+::placeholder{
+    color:rgb(151,151,151);
+    text-align: center;
+}
+div{
+    border: solid 1px rgb(4, 0, 255);
+    width: 200px;
+    height: 250px;
+}
+a{
+    text-decoration: none;
+    color: rgb(63, 101, 133);
+
+}
+a:hover{
+    color: rgb(255, 0, 0);
+}
+h1{
+    color: #0381ff;
+}
+button{
+    background-color: #0df5af;
+}
