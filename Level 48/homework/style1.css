@@ -1,0 +1,27 @@
+
+body{
+    background-color: black;
+}
+form{
+   position: absolute;
+   left: 590px;
+   bottom: 300px;
+}
+input{
+    width: 222px;
+    height: 20px;
+    border: 2px solid brown;
+}
+input::placeholder{
+    font-size: 15px;
+}
+#tex{
+    color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 30px;
+    font-family: fantasy;
+    font-size: 50px;
+}

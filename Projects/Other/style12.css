@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "roboto";
+    background-color: #002fff;
+    margin:30px 80px;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    perspective: 1000px;
+}
+.card{
+    width: 360px;
+    height: 530px;
+    transform-style: preserve-3d ;
+    transition:transform .8s ease-in-out;
+    cursor: pointer;
+    border: 1px olid #ccc;
+    box-shadow: 5px 5px 10px rgb(0,0,0)
+    -5px -5px 10px;
+    border-radius: 15px;
+}
+.card:hover{
+    transform: rotateY(180deg);
+}
+.front-page,
+.back-page{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 15px;
+}
+.front-page{
+    background-image: url(aleqs.jpg);
+    background-size: cover;
+}
+.card-info{
+    position: absolute;
+    bottom: 50px;
+    left: 45px;
+    color: #ffffff;
+    text-shadow: 2px 2px 6px #000;
+    text-align: center;
+}
+.card-title{
+    font-style: 1.2rem;
+}
+.card-subtitle{
+    font-size: 44px;
+    margin-top: 5px;
+    color: #0fbcf9;
+}
+.back-page{
+    color: #090909;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform:rotateY(180deg);
+    box-shadow: 0px 20px 40px #000;
+}
+.card-content{
+    text-align: center;
+    padding:20px;
+    max-width: 300px;
+    color: #ffffff;
+}
+.card-content h3{
+    font-size: 1,8rem;
+    font-weight: bold;
+    margin: bottom 15px;
+}
+.card-description{
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 20px;
+    line-height: 1,6;
+}

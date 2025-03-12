@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-emphasis: center;
+    background-color: rgb(255, 0, 0);
+    background-image: url(Unknown-4.jpeg);
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, 30px 0px 17px rgba(206,21,21,0);
+    color: #ffffff;
+    background: #232323;
+    background-image: url(Unknown-6.jpeg) no-repeat;
+}
+#man{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    gap: 16px;
+    transition: 4s;
+}
+#man li{
+    position: relative;
+    overflow: hidden;
+    flex:0 0 80px;
+    border-radius: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid solid #e70000;
+}
+#man li img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#man li,
+#man li img
+{
+    transition: 0.4s;
+
+}
+#man li #girl{
+    transition: 1.5s ease;
+}
+#man span{
+    text-align: center;
+    width: 75%;
+}
+#man h2{
+    font-weight: 100;
+}

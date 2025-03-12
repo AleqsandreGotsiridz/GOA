@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#mainDiv{
+    width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+img{
+    width: 100%;
+}
+#foodP{
+    font-weight: 530;
+    font-size: 3rem;
+}
+#InstructionP{
+    color: rgb(83, 83, 83);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+#PreparationDiv{
+    background-color: hsla(330, 100%, 96%, 0.568);
+    padding: 20px;
+}
+#h1{
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: #ad5401;
+    font-weight: 420;
+    position: relative;
+    right: 9px;
+}
+#purpleDiv{
+    color: rgb(229, 55, 55);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#div{
+    padding: 5px;
+}
+hr{
+    border: 0.1px solid rgb(201, 201, 201);
+}
+p{
+    font-size: 14px;
+}
+#sigma{
+    font-size: 20px;
+    position: relative;
+    left: 18px;
+    top: 20px;
+    color: rgb(96, 96, 96);
+}
+#chad{
+    font-size: 22px;
+    position: relative;
+    left: 250px;
+    color: #ad5401;
+    
+}

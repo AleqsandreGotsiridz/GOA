@@ -6,7 +6,7 @@ surname = "surmanidze"
 name = "Iakobi"
 surname = "tatrishvili"
 
-name = "Guram"
+name = "Guram🖤"
 surname = "vaktangashvili"
 
 name = "Luka"

@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     font-family: "Figtree", serif;
+    background-size: contain;
 }
 body {
     background-color: hsl(47, 88%, 63%);
@@ -27,7 +28,7 @@ body {
     border-radius: 15px;
     width: 330px;
     height: 200px;
-    background-image: url(./assets/images/illustration-article.svg);
+    background-image: url(../assets/images/illustration-article.svg);
 }
 
 #learningP {

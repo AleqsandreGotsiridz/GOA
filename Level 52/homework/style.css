@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: hsl(148, 38%, 91%);
+
+}
+#mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    position: relative;
+    top: 129px;
+    right: 229px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+form{
+    position: relative;
+    top: 169px;
+    left: 422px;
+    size: 50px;
+}
+
+h2{
+    position: relative;
+    top: 195px;
+    left: 425px;
+    font-weight: 100;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #606060;
+}
+b{
+    color: blue;
+}
+#man{
+    padding: 15px;
+    width: 300px;
+    border-radius: 9px;
+    border: 1px solid #c2c2c2;
+}
+#girl{
+    padding: 15px;
+    width: 300px;
+    border-radius: 9px;
+    border: 1px solid #c2c2c2;
+}
+#goa{
+    position: relative;
+    top: 180px;
+    left: 764px;
+    font-weight: 100;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #606060;
+}
+#boy{
+    padding: 15px;
+    width: 635px;
+    border-radius: 9px;
+    border: 1px solid #c2c2c2;
+}
+#goal{
+    position: relative;
+    top: 244px;
+    right:764px;
+    font-weight: 100;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #606060;
+}
+button{
+    width: 325px;
+    padding: 15px;
+    border-radius: 9px;
+    border: 1px solid #c2c2c2;
+    background-color: white;
+}
+#button{
+    width: 340px;
+    padding: 15px;
+    border-radius: 9px;
+    border: 1px solid #c2c2c2;
+    background-color: white;
+}
+button:hover{
+    background-color: blue;
+}
+#art{
+    position: relative;
+    top: 95px;
+    bottom: 300px;
+}
+/*#art2{
+    position: relative;
+    top: 120px;
+    right: 670px;
+    width: 340px;
+    padding: 15px;
+    border-radius: 9px;
+    border: 1px solid #c2c2c2;
+    background-color: white;
+
+}*/
+#art2{
+    
+}

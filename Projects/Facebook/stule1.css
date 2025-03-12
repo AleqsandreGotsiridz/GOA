@@ -1,0 +1,114 @@
+body{
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 115, 255);
+    font-size: 130px;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+#good{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 490 ;
+    font-family: sans-serif;
+    color: rgb(33, 32, 32);
+}
+#id{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+input{
+    font-size: 70px;
+    border: solid  1.8px rgb(248, 70, 70);
+    box-shadow: 0px 0px 3.5px red;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+}
+ 
+input[type="gmail"]::placeholder{
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+    color: #999797;
+}
+input[type="gmail"]::placeholder:hover{
+    color: rgb(17, 255, 0);
+    background-color: mediumspringgreen;
+}
+input[type="password"]::placeholder{
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+    color: #999797;
+}
+input[type="button"]{
+    width: 736px;
+    height: 90px;
+    font-size: 50px;
+    color: #ffffff;
+    background-color: rgb(0, 110, 255);
+    border-radius: 15px;
+    border: none;
+}
+input[type="button"]:hover{
+    background-color: rgb(66, 128, 252);
+    transition: 0.4s;
+}
+input[type="button"]:active{
+    transform: scale(1.1);
+}
+h3{
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgb(0, 98, 255);
+}
+h3:hover{
+    text-decoration: underline;
+}
+hr{
+    width: 730px;
+}
+button{
+    width: 430px;
+    height: 85px;
+    font-size: 35px;
+    border-radius: 13px;
+    color: white;
+    border: none;
+    background-color: rgb(66, 208, 0);
+}
+button:hover{
+    background-color: rgb(0, 178, 0);
+    transition: 0.4s;
+}
+button:active{
+    transform: scale(1.1);
+}
+#class{
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 25px 155px rgba(0, 0, 0, 0.2);
+    padding: 35px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 150px;
+}
+#nova{
+    color: #ff0000;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-decoration: underline dashed;
+}

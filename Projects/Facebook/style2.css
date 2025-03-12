@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+div{
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 25px 155px rgba(0, 0, 0, 0.2);
+    padding: 35px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 190px;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 115, 255);
+    font-size: 130px;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #000;
+}
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(67, 71, 71);
+    font-weight: 600;
+}
+hr{
+    width: 970px;
+    border: 1px solid;
+    color: #b3b3b3;
+}
+#man{
+    width: 290px;
+    height: 60px;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid rgb(190, 190, 190);
+}
+::placeholder{
+    font-size: 30px;
+}
+#id{
+    font-size: 30px;
+    position: absolute;
+    
+}
+input{
+    width: 290px;
+    height: 60px;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid rgb(190, 190, 190);
+}
+#girl{
+    font-size: 30px;
+    position: absolute;
+}
+#ples{
+    font-size: 30px;
+    position: absolute;
+}
+button{
+    width: 430px;
+    height: 85px;
+    font-size: 35px;
+    border-radius: 13px;
+    color: white;
+    border: none;
+    background-color: rgb(0, 127, 6);
+}
+button:hover{
+    background-color: rgb(0, 178, 0);
+    transition: 0.4s;
+}
+button:active{
+    transform: scale(1.1);
+}

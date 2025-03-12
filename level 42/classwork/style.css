@@ -1,11 +1,58 @@
-div{
-    width: 160px;
-    height: 80px;
-    background-color: rgb(177, 45, 45);
-    border-radius: 4px;
+body{
     display: flex;
-    justify-content:
+    flex-direction: row;
+    position: absolute;
+    top: 150px;
+    left: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
-h1{
-    
+#mainDiv{
+    border: solid 3px;
+    color: red;
+    padding: 100px;
+    border-radius: 40px;
+}
+#secDiv{
+    border: solid 3px;
+    color: rgb(0, 8, 255);
+    padding: 100px;
+    border-radius: 40px;
+}
+#thDiv{
+    border: solid 3px;
+    color: rgb(0, 8, 255);
+    padding: 100px;
+    border-radius: 40px;
+    position: relative;
+    bottom: 589px;
+    left: 285px;
+}
+#fortDiv{
+    border: solid 3px;
+    color: rgb(255, 0, 0);
+    padding: 100px;
+    border-radius: 40px;
+    position: relative;
+    bottom: 589px;
+    left: 285px;
+}
+#fivDiv{
+    border: solid 3px;
+    color: rgb(255, 0, 0);
+    padding: 100px;
+    border-radius: 40px;
+    position: relative;
+    bottom: 1195px;
+    left: 585px;
+}
+#sixDiv{
+    border: solid 3px;
+    color: rgb(0, 8, 255);
+    padding: 100px;
+    border-radius: 40px;
+    position: relative;
+    bottom: 1200px;
+    left: 585px;
 }

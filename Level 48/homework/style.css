@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+    font-size: 240px;
+    font-family: fantasy;
+}
+b{
+    color: rgb(255, 255, 255);
+}
+#man{
+    color: brown;
+}
+h3{
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    position: absolute;
+    top: 57%;
+    left: 779px;
+    font-family: fantasy;
+    font-weight: 550;
+}
+a{
+    color: black;
+}
