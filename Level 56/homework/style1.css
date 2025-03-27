@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(5, 255, 122);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+div{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(79, 79, 142);
+    border-radius: 9990px;
+    transition: 2s;
+}
+div:hover{
+    background-color: rgb(19, 26, 150);
+    transition: 2s;
+}

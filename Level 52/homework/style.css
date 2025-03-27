@@ -1,112 +1,98 @@
-*{
-    padding: 0;
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
-body{
-    background-color: hsl(148, 38%, 91%);
 
-}
-#mainDiv{
+body {
+    height: 150vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: hsl(146, 100%, 95%);
+}
+
+
+#container {
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+form {
+    width: 82%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#form-head {
+    display: flex;
+    gap: 20px;
+}
+
+label {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#email {
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.name {
+    width: 400px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+#radio {
+    display: flex;
+    gap: 40px;
+    padding-top: 30px;
+}
+
+#radio span {
+    border: 1px solid black;
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#message{
+    width:  820px;
+    height: 400px;
+    border-radius: 1px
+     
 }
 h1{
-    position: relative;
-    top: 129px;
-    right: 229px;
-    font-size: 30px;
-    font-weight: 500;
-    font-family: sans-serif;
+    font-size: 40px;
+    position: absolute;
+    top: 265px;
+    left:299px;
+    font-weight: 510;
 }
-form{
-    position: relative;
-    top: 169px;
-    left: 422px;
-    size: 50px;
+#spanuu{
+    font-size:20px;
+    font-weight: 300;
 }
-
-h2{
-    position: relative;
-    top: 195px;
-    left: 425px;
-    font-weight: 100;
-    font-size: 15px;
-    font-family: sans-serif;
-    color: #606060;
-}
-b{
-    color: blue;
-}
-#man{
-    padding: 15px;
-    width: 300px;
-    border-radius: 9px;
-    border: 1px solid #c2c2c2;
-}
-#girl{
-    padding: 15px;
-    width: 300px;
-    border-radius: 9px;
-    border: 1px solid #c2c2c2;
-}
-#goa{
-    position: relative;
-    top: 180px;
-    left: 764px;
-    font-weight: 100;
-    font-size: 15px;
-    font-family: sans-serif;
-    color: #606060;
-}
-#boy{
-    padding: 15px;
-    width: 635px;
-    border-radius: 9px;
-    border: 1px solid #c2c2c2;
-}
-#goal{
-    position: relative;
-    top: 244px;
-    right:764px;
-    font-weight: 100;
-    font-size: 15px;
-    font-family: sans-serif;
-    color: #606060;
+#id{
+    color: hsl(148, 38%, 66%);
 }
 button{
-    width: 325px;
-    padding: 15px;
-    border-radius: 9px;
-    border: 1px solid #c2c2c2;
-    background-color: white;
-}
-#button{
-    width: 340px;
-    padding: 15px;
-    border-radius: 9px;
-    border: 1px solid #c2c2c2;
-    background-color: white;
-}
-button:hover{
-    background-color: blue;
-}
-#art{
-    position: relative;
-    top: 95px;
-    bottom: 300px;
-}
-/*#art2{
-    position: relative;
-    top: 120px;
-    right: 670px;
-    width: 340px;
-    padding: 15px;
-    border-radius: 9px;
-    border: 1px solid #c2c2c2;
-    background-color: white;
-
-}*/
-#art2{
-    
+    width: 400px;
+    height: 50px;
+   
 }

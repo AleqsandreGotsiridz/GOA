@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div{
+    width: 250px;
+    height: 250px;
+    background-color: #000000;
+    transition: 1.50s;
+}
+div:hover{
+    background-color: #00a2ff;
+}

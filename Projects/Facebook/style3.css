@@ -62,7 +62,7 @@ input{
     height: 60px;
     text-align: center;
     border-radius: 6px;
-    border: 2px solid rgb(255, 0, 0);
+    border: red;
 }
 #girl{
     font-size: 30px;

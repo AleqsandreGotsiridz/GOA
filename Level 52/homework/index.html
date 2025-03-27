@@ -1,34 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Contact form</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
+
 <body>
-  <div id="mainDiv">
-    <h1>Contact us</h1>
-  </div>
-  <h2>First Name <b>*</b></h2>
-  <h2 id="goa">Last Name <b>*</b></h2>
-  <h2 id="goal">Email Addres <b>*</b></h2>
-    <form id="contactForm">
-      <input type="text" id="man">
-      <input type="text" id="girl">
-      <br><br><br>
-      <input type="text" id="boy">
-      <br><br><br>
-      <button><input type="radio"> General Enquiry</button>
-      <button id="button"><input type="radio"> Support Request</button>
-      <input type="text" id="art2">
-    </form>
-   <h2 id="art">Query Type <b>*</b></h2>
-   <h2>Message <b>*</b></h2>
+    <div id="container">
+      <h1>Contact Us</h1>
+        <form>
+            <div id="form-head">
+                <span>
+                    <label for="">First Name <span id="id">*</span></label>
+                    <br>
+                    <input class="name" type="text" name="" id="">
+                </span>
+                <span>
+                    <label for="">Last Name <span id="id">*</span></label>
+                    <br>
+                    <input class="name" type="text">
+                </span>
+            </div>
+            <span>
+                <label for="">Email Address <span id="id">*</span></label>
+                <br>
+                <input type="text" name="" id="email">
+            </span>
+            <span>
+                <h2 id="spanuu">Query type <span id="id">*</span></h2>
+                <div id="radio">
+                    <span>
+                        <input type="radio" name="decision" value="general">
+                        <label for="">General enquiry</label>
+                    </span>
+
+                    <span>
+                        <input type="radio" name="decision" value="Support">
+                        <label for="">Support Request</label>
+                    </span>
+
+                </div>
+            </span>
+            <label for="">Message <span id="id">*</span></label>
+            <input type="text" id="message">
+
+
+            <span>
+                <input type="checkbox" name="" id="">
+                <label for="">I consent to being contacted by the team</label>
+            </span>
+        </form>
+        
+    </div>
+
 </body>
+
 </html>

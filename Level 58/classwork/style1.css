@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div{
+    width: 180px;
+    height: 180px;
+    background-color: rgb(38, 47, 113);
+    position: relative;
+    animation: sandro infinite;
+}
+
+    @keyframes sandro {
+      0% {
+        transform: translate(0, 0);
+        background-color: blue;
+      }
+      25% {
+        transform: translate(0, -40px);
+        background-color: red;
+      }
+      50% {
+        transform: translate(60px, -40px);
+        background-color: green;
+      }
+      75% {
+        transform: translate(60px, 0);
+        background-color: yellow;
+      }
+      100% {
+        transform: translate(0, 0);
+        background-color: blue;
+      }
+    }
