@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 1px;
+}
+img{
+    width: 290px;
+    height: 284px;
+    border-radius: 18px;
+}
+#secDiv{
+    border: solid rgb(248, 246, 246) 1px;
+    width: 550px;
+    height: 293px;
+    border-top-left-radius:1px;
+    border-top-right-radius:18px;
+    border-bottom-right-radius:18px;
+    position: relative;
+    right: 35px;
+    bottom: 1.50px;
+    background-color: rgb(255, 255, 255);
+}
+#mainTxt{
+    font-size: 29px;
+    font-weight:  590;
+    color:hsl(217, 19%, 35%);
+    position: relative;
+    top: 32px;
+    left: 30px;
+}
+#drums{
+    font-size: 18px;
+
+    color:hsl(218, 15%, 54%);
+    position: relative;
+    top: 32px;
+    left: 0px;
+}

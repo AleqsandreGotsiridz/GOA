@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(5, 255, 255);
+}
+
+div{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(37, 37, 181);
+    animation: div 2s infinite;
+}
+@keyframes div{
+    0%{
+        transform: rotate(0deg);
+    }
+    62.5%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
