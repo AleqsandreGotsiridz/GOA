@@ -1,4 +1,6 @@
-while True:      
+while True:
+        operator1 = input("Hi!:") 
+        operato2 = input("what do you wanna or need?:")
         operator = input("Enter the operator (+, -, *, //): ")
         num1 = float(input("Enter the 1st number: "))
         num2 = float(input("Enter the 2nd number: "))
